@@ -1,39 +1,34 @@
 {
   "name": "LIQUID696",
-  "description": "Liquid glass theme with macOS icons, overlays, and frosted translucent panels",
+  "description": "Liquid glass theme with macOS icons and frosted panels",
   "authors": [
     {
       "name": "Kateri",
       "id": "0"
     }
   ],
-  "version": "2.2.0",
+  "version": "3.0.0",
   "spec": 2,
   "semanticColors": {
     "BACKGROUND_PRIMARY": ["#00000000", "#00000000"],
-    "BACKGROUND_SECONDARY": ["#0b061445", "#0b061445"],
-    "BACKGROUND_SECONDARY_ALT": ["#140a2255", "#140a2255"],
-    "BACKGROUND_TERTIARY": ["#07030e65", "#07030e65"],
-    "BACKGROUND_FLOATING": ["#160a2580", "#160a2580"],
-    "BACKGROUND_ACCENT": ["#ff1c6840", "#ff1c6840"],
+    "BACKGROUND_SECONDARY": ["#0b061440", "#0b061440"],
+    "BACKGROUND_SECONDARY_ALT": ["#140a2250", "#140a2250"],
+    "BACKGROUND_TERTIARY": ["#07030e60", "#07030e60"],
+    "BACKGROUND_FLOATING": ["#160a2575", "#160a2575"],
+    "BACKGROUND_ACCENT": ["#ff1c6835", "#ff1c6835"],
     "BACKGROUND_MOBILE_PRIMARY": ["#00000000", "#00000000"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#0b061445", "#0b061445"],
-
+    "BACKGROUND_MOBILE_SECONDARY": ["#0b061440", "#0b061440"],
     "CHAT_BACKGROUND": ["#00000000", "#00000000"],
-    "CHAT_INPUT_CONTAINER_BACKGROUND": ["#140a2250", "#140a2250"],
-
-    "CARD_PRIMARY_BG": ["#1c0f2f45", "#1c0f2f45"],
-    "CARD_SECONDARY_BG": ["#0b061445", "#0b061445"],
-
-    "INPUT_BACKGROUND": ["#140a2255", "#140a2255"],
-    "MODAL_BACKGROUND": ["#0d051795", "#0d051795"],
-
+    "CHAT_INPUT_CONTAINER_BACKGROUND": ["#140a2245", "#140a2245"],
+    "CARD_PRIMARY_BG": ["#1c0f2f35", "#1c0f2f35"],
+    "CARD_SECONDARY_BG": ["#0b061440", "#0b061440"],
+    "INPUT_BACKGROUND": ["#140a2245", "#140a2245"],
+    "MODAL_BACKGROUND": ["#0d051785", "#0d051785"],
     "HEADER_PRIMARY": ["#ece2fa", "#ece2fa"],
     "HEADER_SECONDARY": ["#d0c3e6", "#d0c3e6"],
     "TEXT_NORMAL": ["#ece2fa", "#ece2fa"],
     "TEXT_MUTED": ["#8e7ca7", "#8e7ca7"],
     "TEXT_LINK": ["#00d4ff", "#00d4ff"],
-
     "INTERACTIVE_NORMAL": ["#cbbad9", "#cbbad9"],
     "INTERACTIVE_HOVER": ["#ffffff", "#ffffff"],
     "INTERACTIVE_ACTIVE": ["#ff1c68", "#ff1c68"],
@@ -54,7 +49,9 @@
   },
   "plus": {
     "version": 0,
-    "iconpack": "https://raw.githubusercontent.com/nexpid/VendettaThemesPlus/main/iconpacks/sf-symbols.json",
+    "iconpack": {
+      "url": "https://cdn.jsdelivr.net/gh/nexpid/VendettaThemesPlus@main/iconpacks/sf-symbols.json"
+    },
     "icons": {
       "ic_message_24px": "#ff1c68",
       "ic_search_24px": "#ece2fa",
@@ -64,12 +61,6 @@
       "ic_help_24px": "#ece2fa",
       "ic_settings_24px": "#ece2fa"
     },
-    "iconOverlays": {
-      "ic_message_24px": "https://raw.githubusercontent.com/nexpid/VendettaThemesPlus/main/iconpacks/sf-symbols.json",
-      "ic_search_24px": "https://raw.githubusercontent.com/nexpid/VendettaThemesPlus/main/iconpacks/sf-symbols.json"
-    },
-    "custom": {
-      "mentionLineColor": "#ff1c68"
-    }
+    "mentionLineColor": "#ff1c68"
   }
 }
