@@ -1,0 +1,75 @@
+{
+  "name": "LIQUID696",
+  "description": "Liquid glass theme with macOS icons, overlays, and frosted translucent panels",
+  "authors": [
+    {
+      "name": "Kateri",
+      "id": "0"
+    }
+  ],
+  "version": "2.2.0",
+  "spec": 2,
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": ["#00000000", "#00000000"],
+    "BACKGROUND_SECONDARY": ["#0b061445", "#0b061445"],
+    "BACKGROUND_SECONDARY_ALT": ["#140a2255", "#140a2255"],
+    "BACKGROUND_TERTIARY": ["#07030e65", "#07030e65"],
+    "BACKGROUND_FLOATING": ["#160a2580", "#160a2580"],
+    "BACKGROUND_ACCENT": ["#ff1c6840", "#ff1c6840"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#00000000", "#00000000"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#0b061445", "#0b061445"],
+
+    "CHAT_BACKGROUND": ["#00000000", "#00000000"],
+    "CHAT_INPUT_CONTAINER_BACKGROUND": ["#140a2250", "#140a2250"],
+
+    "CARD_PRIMARY_BG": ["#1c0f2f45", "#1c0f2f45"],
+    "CARD_SECONDARY_BG": ["#0b061445", "#0b061445"],
+
+    "INPUT_BACKGROUND": ["#140a2255", "#140a2255"],
+    "MODAL_BACKGROUND": ["#0d051795", "#0d051795"],
+
+    "HEADER_PRIMARY": ["#ece2fa", "#ece2fa"],
+    "HEADER_SECONDARY": ["#d0c3e6", "#d0c3e6"],
+    "TEXT_NORMAL": ["#ece2fa", "#ece2fa"],
+    "TEXT_MUTED": ["#8e7ca7", "#8e7ca7"],
+    "TEXT_LINK": ["#00d4ff", "#00d4ff"],
+
+    "INTERACTIVE_NORMAL": ["#cbbad9", "#cbbad9"],
+    "INTERACTIVE_HOVER": ["#ffffff", "#ffffff"],
+    "INTERACTIVE_ACTIVE": ["#ff1c68", "#ff1c68"],
+    "INTERACTIVE_MUTED": ["#5a4c6e", "#5a4c6e"]
+  },
+  "rawColors": {
+    "BRAND_500": "#ff1c68",
+    "BRAND_560": "#d41253",
+    "STATUS_ONLINE": "#72e5a9",
+    "STATUS_IDLE": "#faa61a",
+    "STATUS_DND": "#ff1c68",
+    "STATUS_OFFLINE": "#747f8d"
+  },
+  "background": {
+    "url": "https://files.catbox.moe/xt2fjo.jpg",
+    "blur": 0,
+    "alpha": 0.85
+  },
+  "plus": {
+    "version": 0,
+    "iconpack": "https://raw.githubusercontent.com/nexpid/VendettaThemesPlus/main/iconpacks/sf-symbols.json",
+    "icons": {
+      "ic_message_24px": "#ff1c68",
+      "ic_search_24px": "#ece2fa",
+      "ic_call_24px": "#72e5a9",
+      "ic_video_24px": "#00d4ff",
+      "ic_sidebar_notifications": "#ff1c68",
+      "ic_help_24px": "#ece2fa",
+      "ic_settings_24px": "#ece2fa"
+    },
+    "iconOverlays": {
+      "ic_message_24px": "https://raw.githubusercontent.com/nexpid/VendettaThemesPlus/main/iconpacks/sf-symbols.json",
+      "ic_search_24px": "https://raw.githubusercontent.com/nexpid/VendettaThemesPlus/main/iconpacks/sf-symbols.json"
+    },
+    "custom": {
+      "mentionLineColor": "#ff1c68"
+    }
+  }
+}
