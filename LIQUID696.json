@@ -1,29 +1,42 @@
 {
   "name": "LIQUID696",
-  "description": "Liquid glass theme with macOS icons and frosted panels",
+  "description": "Liquid glass theme with transparent menus and panels",
   "authors": [
     {
       "name": "Kateri",
       "id": "0"
     }
   ],
-  "version": "3.0.0",
+  "version": "4.0.0",
   "spec": 2,
   "semanticColors": {
     "BACKGROUND_PRIMARY": ["#00000000", "#00000000"],
-    "BACKGROUND_SECONDARY": ["#0b061440", "#0b061440"],
-    "BACKGROUND_SECONDARY_ALT": ["#140a2250", "#140a2250"],
-    "BACKGROUND_TERTIARY": ["#07030e60", "#07030e60"],
-    "BACKGROUND_FLOATING": ["#160a2575", "#160a2575"],
-    "BACKGROUND_ACCENT": ["#ff1c6835", "#ff1c6835"],
+    "BACKGROUND_SECONDARY": ["#0b061430", "#0b061430"],
+    "BACKGROUND_SECONDARY_ALT": ["#140a2240", "#140a2240"],
+    "BACKGROUND_TERTIARY": ["#07030e50", "#07030e50"],
+    "BACKGROUND_FLOATING": ["#160a2550", "#160a2550"],
+    "BACKGROUND_ACCENT": ["#ff1c6830", "#ff1c6830"],
     "BACKGROUND_MOBILE_PRIMARY": ["#00000000", "#00000000"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#0b061440", "#0b061440"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#0b061430", "#0b061430"],
+
+    "BG_BASE_PRIMARY": ["#00000000", "#00000000"],
+    "BG_BASE_SECONDARY": ["#0b061430", "#0b061430"],
+    "BG_BASE_TERTIARY": ["#07030e50", "#07030e50"],
+    "BG_SURFACE_OVERLAY": ["#160a2550", "#160a2550"],
+    "BG_SURFACE_RAISED": ["#140a2240", "#140a2240"],
+    "BG_MOD_FAINT": ["#ff1c6815", "#ff1c6815"],
+
+    "SHEET_BG": ["#0d051760", "#0d051760"],
+    "MODAL_BACKGROUND": ["#0d051760", "#0d051760"],
+    "MENU_ITEM_DEFAULT_HOVER_BG": ["#ff1c6830", "#ff1c6830"],
+    "MENU_ITEM_DEFAULT_ACTIVE_BG": ["#ff1c6850", "#ff1c6850"],
+
     "CHAT_BACKGROUND": ["#00000000", "#00000000"],
-    "CHAT_INPUT_CONTAINER_BACKGROUND": ["#140a2245", "#140a2245"],
-    "CARD_PRIMARY_BG": ["#1c0f2f35", "#1c0f2f35"],
-    "CARD_SECONDARY_BG": ["#0b061440", "#0b061440"],
-    "INPUT_BACKGROUND": ["#140a2245", "#140a2245"],
-    "MODAL_BACKGROUND": ["#0d051785", "#0d051785"],
+    "CHAT_INPUT_CONTAINER_BACKGROUND": ["#140a2235", "#140a2235"],
+    "CARD_PRIMARY_BG": ["#1c0f2f30", "#1c0f2f30"],
+    "CARD_SECONDARY_BG": ["#0b061430", "#0b061430"],
+    "INPUT_BACKGROUND": ["#140a2235", "#140a2235"],
+
     "HEADER_PRIMARY": ["#ece2fa", "#ece2fa"],
     "HEADER_SECONDARY": ["#d0c3e6", "#d0c3e6"],
     "TEXT_NORMAL": ["#ece2fa", "#ece2fa"],
@@ -36,31 +49,11 @@
   },
   "rawColors": {
     "BRAND_500": "#ff1c68",
-    "BRAND_560": "#d41253",
-    "STATUS_ONLINE": "#72e5a9",
-    "STATUS_IDLE": "#faa61a",
-    "STATUS_DND": "#ff1c68",
-    "STATUS_OFFLINE": "#747f8d"
+    "BRAND_560": "#d41253"
   },
   "background": {
     "url": "https://files.catbox.moe/xt2fjo.jpg",
     "blur": 0,
     "alpha": 0.85
-  },
-  "plus": {
-    "version": 0,
-    "iconpack": {
-      "url": "https://cdn.jsdelivr.net/gh/nexpid/VendettaThemesPlus@main/iconpacks/sf-symbols.json"
-    },
-    "icons": {
-      "ic_message_24px": "#ff1c68",
-      "ic_search_24px": "#ece2fa",
-      "ic_call_24px": "#72e5a9",
-      "ic_video_24px": "#00d4ff",
-      "ic_sidebar_notifications": "#ff1c68",
-      "ic_help_24px": "#ece2fa",
-      "ic_settings_24px": "#ece2fa"
-    },
-    "mentionLineColor": "#ff1c68"
   }
 }
